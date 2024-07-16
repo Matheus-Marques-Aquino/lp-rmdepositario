@@ -36,27 +36,25 @@ export default function Home() {
 
   return (
     <main className="bg-white w-full">
-      <div className="h-[60px] border-b-[1px] border-b-[#000] border-opacity-10 flex shadow-lg bg-[#212121] sticky top-0 z-[1000] ">
-        <div className="w-full max-w-[1000px] h-full mx-auto flex">
-          <div className="w-[130px] mx-[15px] my-auto flex">
+      <div className="h-[60px] border-b-[1px] border-b-[#000] border-opacity-10 flex shadow-lg bg-[#212121] sticky top-0 z-[1000]">
+        <div className="w-full max-w-[1000px] h-full mx-auto flex items-center px-4">
+          <div className="w-[130px] flex-shrink-0">
             <img src={"/imgs/Logo-RM.png"} className="w-auto h-auto my-auto" />
           </div>
-          <div className="w-fit my-auto text-white ml-auto flex">
-            <div>
-              <div className="font-normal text-[15px] sm:text-[12px] leading-[20px] flex">
+          <div className="flex flex-col sm:flex-row items-center text-white ml-auto">
+            <div className="text-center sm:text-left">
+              <div className="font-normal text-[15px] sm:text-[12px] leading-[20px] flex items-center justify-center sm:justify-start">
                 <FaPhoneAlt className="w-[18px] h-[13px] mr-[5px] my-auto" />
                 <div>(11) 9.8874-6387</div>
               </div>
-              <div className="font-normal text-[12px] sm:text-[12px] leading-[20px] mt-[0px] flex">
+              <div className="font-normal text-[8px] sm:text-[8px] leading-[20px] mt-[0px] flex items-center justify-center sm:justify-start">
                 <FaPhoneAlt className="w-[18px] h-[13px] mr-[5px] my-auto" />
                 <div>(11) 9.9973-1913</div>
               </div>
             </div>
-            <div className="font-normal text-[12px] sm:text-[12px] leading-[20px] flex cursor-pointer ml-5">
-              <div className="flex h-fit">
-                <IoIosMail className="w-[18px] h-[16px] my-auto mr-[4px]" />
-                <div className="">rmdepositario@gmail.com</div>
-              </div>
+            <div className="font-normal text-[8px] sm:text-[8px] leading-[20px] flex items-center cursor-pointer mt-2 sm:mt-0 sm:ml-5">
+              <IoIosMail className="w-[18px] h-[16px] my-auto mr-[4px]" />
+              <div>rmdepositario@gmail.com</div>
             </div>
           </div>
         </div>
