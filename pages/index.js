@@ -61,7 +61,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="w-full flex py-[40px] bg-[#FFFFFF] bg-[url('/imgs/background-1.png')] bg-cover bg-center bg-no-repeat">
+      <div className="w-full flex py-[40px] bg-[#FFFFFF] bg-[url('/imgs/background-2.png')] bg-cover bg-center bg-no-repeat">
         <div className="w-full max-w-[1000px] mx-auto lg:flex">
           <div className="w-fit h-fit mt-auto mb-[40px] mx-auto px-[8px] lg:mr-auto lg:ml-0 xs:px-0">
             <HeaderMessage />
