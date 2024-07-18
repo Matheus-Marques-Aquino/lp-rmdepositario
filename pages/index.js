@@ -18,6 +18,7 @@ import { FaPhoneAlt } from "react-icons/fa";
 import About from "../components/about";
 import InfoSection from "@/components/info-section";
 import Servicos from "@/components/servicos";
+import ContactSection from "@/components/contact";
 
 export default function Home() {
   const [selectValue, setSelectValue] = useState("");
@@ -100,6 +101,7 @@ export default function Home() {
         <InfoSection />
         <NewsLetter />
         <About />
+        <ContactSection />
         <Footer />
       </div>
       <Link
