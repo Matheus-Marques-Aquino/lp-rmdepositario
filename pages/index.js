@@ -19,6 +19,7 @@ import About from "../components/about";
 import InfoSection from "@/components/info-section";
 import Servicos from "@/components/servicos";
 import ContactSection from "@/components/contact";
+import BannerLigar from "@/components/banne-ligar";
 
 export default function Home() {
   const [selectValue, setSelectValue] = useState("");
@@ -76,18 +77,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="relative w-full py-[40px] bg-[#FFFFFF] bg-[url('/imgs/background-2.png')] bg-cover bg-center bg-no-repeat">
-        <div className="absolute inset-0 bg-black opacity-50"></div>{" "}
-        {/* Overlay */}
-        <div className="relative w-full max-w-[1000px] mx-auto lg:flex">
-          <div className="w-fit h-fit mt-auto mb-[40px] mx-auto px-[8px] lg:mr-auto lg:ml-0 xs:px-0">
-            <HeaderMessage />
-          </div>
-          <div className="w-fit my-auto mx-auto px-[8px] lg:mx-0 xs:px-0">
-            <Form selectValue={selectValue} onSelectChange={onSelectChange} />
-          </div>
-        </div>
-      </div>
+      <BannerLigar />
       <div className="w-full z-10">
         <Servicos />
         <FirstRow />
@@ -101,6 +91,18 @@ export default function Home() {
         <InfoSection />
         <NewsLetter />
         <About />
+        <div className="relative w-full py-[40px] bg-[#FFFFFF] bg-[url('/imgs/background-2.png')] bg-cover bg-center bg-no-repeat">
+          <div className="absolute inset-0 bg-black opacity-50"></div>{" "}
+          {/* Overlay */}
+          <div className="relative w-full max-w-[1000px] mx-auto lg:flex">
+            <div className="w-fit h-fit mt-auto mb-[40px] mx-auto px-[8px] lg:mr-auto lg:ml-0 xs:px-0">
+              <HeaderMessage />
+            </div>
+            <div className="w-fit my-auto mx-auto px-[8px] lg:mx-0 xs:px-0">
+              <Form selectValue={selectValue} onSelectChange={onSelectChange} />
+            </div>
+          </div>
+        </div>
         <ContactSection />
         <Footer />
       </div>
