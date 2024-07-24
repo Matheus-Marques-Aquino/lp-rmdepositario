@@ -4,7 +4,7 @@ import MiniCard from "./subcomponents/MiniCard";
 
 export default function HeaderMessage() {
   return (
-    <div className="max-w-[520px] mx-auto h-fit text-center lg:max-w-[490px] xs:mx-0 text-white">
+    <div className="max-w-[520px] mx-auto h-fit text-center lg:max-w-[490px] xs:mx-0 text-white mr-2">
       <div className="max-w-[450px] text-[22px] font-semibold leading-[28px] tracking-[0.025rem] lg:text-[35px] lg:leading-[35px] mx-auto">
         RM Depositário
       </div>
