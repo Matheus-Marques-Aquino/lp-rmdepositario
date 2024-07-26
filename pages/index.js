@@ -20,6 +20,7 @@ import InfoSection from "@/components/info-section";
 import Servicos from "@/components/servicos";
 import ContactSection from "@/components/contact";
 import BannerLigar from "@/components/banne-ligar";
+import Media from "@/components/media";
 
 export default function Home() {
   const [selectValue, setSelectValue] = useState("");
@@ -89,6 +90,7 @@ export default function Home() {
         />
 
         <InfoSection />
+        <Media />
         <NewsLetter />
         <About />
 

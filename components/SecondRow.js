@@ -180,25 +180,27 @@ export default function SecondRow({ updateSelect }) {
   ];
 
   return (
-    <div className="w-full w-full py-[40px] text-[#313131] shadow-inner-custom-2">
-      <div className="w-full mx-auto max-w-[1000px] mt-5 text-justify"></div>
-      <div className="w-fit mx-auto font-medium text-[19px] xs:text-[24px] sm:text-[28px] lg:text-[32px] mt-6">
-        Importância do Depositário Judicial
-      </div>
-      <div className="w-full mx-auto max-w-[1000px] mt-5 text-justify">
-        <div>
-          Um depositário judicial é responsável pela guarda, conservação e
-          administração de bens apreendidos por ordem do tribunal durante um
-          processo judicial.Isso significa que, quando bens como imóveis,
-          veículos, mercadorias ou outros ativos são apreendidos pela justiça, o
-          depositário judicial assegura que esses bens sejam mantidos em
-          segurança e preservados em boas condições até que o processo legal
-          seja concluído.
+    <div>
+      <div className="w-full w-full py-[40px] text-[#313131] shadow-inner-custom-2 ">
+        <div className="w-full mx-auto max-w-[1000px] mt-5 text-justify"></div>
+        <div className="w-fit mx-auto font-medium text-[19px] xs:text-[24px] sm:text-[28px] lg:text-[32px] mt-6">
+          Importância do Depositário Judicial
         </div>
-        <div>
-          Esse papel é fundamental para proteger os interesses de todas as
-          partes envolvidas no processo, assegurando que os bens estejam
-          disponíveis e em bom estado quando necessários.
+        <div className="w-full mx-auto max-w-[1000px] mt-5 text-justify m">
+          <div>
+            Um depositário judicial é responsável pela guarda, conservação e
+            administração de bens apreendidos por ordem do tribunal durante um
+            processo judicial.Isso significa que, quando bens como imóveis,
+            veículos, mercadorias ou outros ativos são apreendidos pela justiça,
+            o depositário judicial assegura que esses bens sejam mantidos em
+            segurança e preservados em boas condições até que o processo legal
+            seja concluído.
+          </div>
+          <div>
+            Esse papel é fundamental para proteger os interesses de todas as
+            partes envolvidas no processo, assegurando que os bens estejam
+            disponíveis e em bom estado quando necessários.
+          </div>
         </div>
       </div>
     </div>
